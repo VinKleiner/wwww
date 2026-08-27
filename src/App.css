@@ -1,0 +1,17 @@
+/* Невеликий відступ зверху для контенту, щоб navbar не перекривав */
+body {
+    padding-top: 70px;
+}
+/* Додаткові стилі для кращого вигляду (опціонально) */
+.navbar-brand i {
+    margin-right: 8px;
+}
+.nav-link i {
+    margin-right: 6px;
+}
+/* Адаптація для дуже малих екранів */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}

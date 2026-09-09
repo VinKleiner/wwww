@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import MainNavbar from "./layouts/main/MainNavbar";
 import QRPage from "./pages/QRPage";
+import ProfitPage from "./pages/ProfitPage";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                     <Route path="login" element={<LoginPage/>}/>
                     <Route path="register" element={<RegisterPage/>}/>
                     <Route path="qr" element={<QRPage/>}/>
+                    <Route path="profile" element={<ProfitPage/>}/>
                 </Route>
             </Routes>
         </>
